@@ -19,8 +19,6 @@ template <class InputIterator, class OutputIterator>
 void InverseFFT(int n_sample,
                 InputIterator in_first_Re, 
                 InputIterator in_first_Im,
-	       OutputIterator out_first_Re,
+	        OutputIterator out_first_Re,
                 OutputIterator out_first_Im);
 ```
-
-
